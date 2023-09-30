@@ -15,6 +15,8 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
+    // MIGHT ADD THEMES LATER 
+    // if so, add data-theme="autumn" to html tag
     <html lang="en">
       <body className={inter.className}>{children}</body>
     </html>
